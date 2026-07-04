@@ -1,4 +1,3 @@
-import 'package:camera_gallery/main.dart';
 import 'package:flutter/material.dart';
 
 class DrawerHeaderMain extends StatelessWidget {
@@ -73,6 +72,7 @@ class DrawerHeaderMain extends StatelessWidget {
               Navigator.pushNamed(context, "/settings");
             },
           ),
+          Divider(color: Theme.of(context).primaryColor),
         ],
       ),
     );
