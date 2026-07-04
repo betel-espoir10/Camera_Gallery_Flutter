@@ -18,8 +18,14 @@ class _MessagePageState extends State<MessagePage> {
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
         ),
-        foregroundColor: Theme.of(context).highlightColor,
+        foregroundColor: Theme.of(context).canvasColor,
         backgroundColor: Theme.of(context).primaryColor,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 40),
+            child: Icon(Icons.message_outlined),
+          ),
+        ],
       ),
     );
   }
