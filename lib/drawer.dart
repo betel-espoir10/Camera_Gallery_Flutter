@@ -55,7 +55,10 @@ class DrawerHeaderMain extends StatelessWidget {
             ),
             leading: Icon(Icons.message),
             trailing: Icon(Icons.arrow_right),
-            onTap: () {},
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.pushNamed(context, "/message");
+            },
           ),
           Divider(color: Theme.of(context).primaryColor),
           ListTile(

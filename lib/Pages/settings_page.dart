@@ -31,7 +31,7 @@ class _SettingsPageState extends State<SettingsPage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             //App preferences
-            _sectionHeaderText(label: "-> Preferences"),
+            _sectionHeaderText(label: "Preferences"),
             _sectionSettingsOptions(
               options: [
                 ListTile(
@@ -77,7 +77,7 @@ class _SettingsPageState extends State<SettingsPage> {
               ],
             ),
             //account settings
-            _sectionHeaderText(label: "-> Account"),
+            _sectionHeaderText(label: "Account"),
             _sectionSettingsOptions(
               options: [
                 ListTile(
@@ -101,7 +101,7 @@ class _SettingsPageState extends State<SettingsPage> {
               ],
             ),
             //customer support
-            _sectionHeaderText(label: "-> Support"),
+            _sectionHeaderText(label: "Support"),
             _sectionSettingsOptions(
               options: [
                 ListTile(

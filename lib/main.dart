@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:camera_gallery/Pages/message_page.dart';
 import 'package:camera_gallery/Pages/profil_page.dart';
 import 'package:camera_gallery/Pages/settings_page.dart';
 import 'package:camera_gallery/drawer.dart';
@@ -21,6 +22,7 @@ void main() {
         "/register": (context) => RegisterPage(),
         "/profil": (context) => ProfilPage(),
         "/settings": (context) => SettingsPage(),
+        "/message": (context) => MessagePage(),
       },
       title: "Camera",
       home: LoginPage(),
